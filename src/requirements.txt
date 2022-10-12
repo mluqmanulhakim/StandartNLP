@@ -1,6 +1,6 @@
 mtranslate
 streamlit
-PIL
+Pillow
 pandas
 numpy
 matplotlib
@@ -8,5 +8,4 @@ textblob
 nltk
 re
 spacy
-collections
-en_core_web_sm
+collection
