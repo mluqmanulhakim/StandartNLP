@@ -13,8 +13,6 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 import spacy
 from spacy import displacy
 from collections import Counter
-import en_core_web_sm
-nlp = en_core_web_sm
 
 # Judul
 st.title("Natural Language Processing")
