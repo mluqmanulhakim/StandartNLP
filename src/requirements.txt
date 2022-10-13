@@ -1,3 +1,4 @@
+mtranslate
 streamlit
 Pillow
 textblob
