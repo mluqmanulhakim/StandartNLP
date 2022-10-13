@@ -1,18 +1,11 @@
 from mtranslate import translate
 import streamlit as st
 from PIL import Image
-import pandas as pd
-import numpy as np
-from matplotlib import pyplot as plt
 from textblob import TextBlob
 import nltk
-import re
 nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
-import spacy
-from spacy import displacy
-from collections import Counter
 
 # Judul
 st.title("Natural Language Processing")
