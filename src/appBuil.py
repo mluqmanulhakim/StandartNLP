@@ -1,3 +1,4 @@
+from mtranslate import translate
 import streamlit as st
 from PIL import Image
 from textblob import TextBlob
