@@ -3,6 +3,7 @@ import streamlit as st
 from PIL import Image
 from textblob import TextBlob
 import nltk
+nltk.download('stopwords')
 nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
